@@ -20,7 +20,8 @@ class LearnUILabel_VC : UIViewController {
         
         UIFont.fontNames(forFamilyName: "Helvetica Neue").forEach { print($0) }
         
-        createLabel()
+        //createLabel()
+        addImageInsideTheText()
     }
     
     fileprivate func createLabel() {
@@ -182,9 +183,10 @@ class LearnUILabel_VC : UIViewController {
         let anchor26 = label11.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         let anchor27 = label11.widthAnchor.constraint(equalToConstant: 400)
         setConstraint(constraints: anchor25, anchor26, anchor27)
-        
-        // MARK: Add image inside the text
-        
+    }
+    
+    // MARK: Add image inside the text
+    fileprivate func addImageInsideTheText() {
         let s2 = "Pencil"
         let content3 = NSMutableAttributedString(string: s2)
         let pencil = UIImage(named: "pencil")!
@@ -193,7 +195,16 @@ class LearnUILabel_VC : UIViewController {
         pencillatt.bounds = CGRect(x: 0, y: 0, width: pencil.size.width, height: pencil.size.height)
         let pencilattchar = NSAttributedString(attachment: pencillatt)
         let r2 = (content3.string as NSString).range(of: "Pencil")
+        content3.insert(pencilattchar, at: r2.location + r2.length)
         
+        let label12: UILabel = UILabel(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
+        label12.translatesAutoresizingMaskIntoConstraints = false
+        label12.attributedText = content3
+        self.view.addSubview(label12)
+        let anchor28 = label12.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 60)
+        let anchor29 = label12.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)
+        let anchor30 = label12.widthAnchor.constraint(equalToConstant: 200)
+        setConstraint(constraints: anchor28, anchor29)
     }
     
     fileprivate func setConstraint(constraints: NSLayoutConstraint...) {
