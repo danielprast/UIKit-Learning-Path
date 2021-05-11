@@ -13,6 +13,9 @@
 		453C4B8D25A41AF100054E12 /* view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C4B8C25A41AF100054E12 /* view.swift */; };
 		453C4B9525A41C4400054E12 /* layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C4B9425A41C4400054E12 /* layout.swift */; };
 		453C4B9B25A41ED300054E12 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C4B9A25A41ED300054E12 /* utils.swift */; };
+		455D46EA2648D80700954E7D /* LearnUITextField_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D46E92648D80700954E7D /* LearnUITextField_VC.swift */; };
+		459CA3E82649DFCE00D2DE08 /* ProtectedTextfieldWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459CA3E72649DFCE00D2DE08 /* ProtectedTextfieldWrapper.swift */; };
+		459CA3F02649E11C00D2DE08 /* CreateProtectedTexfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459CA3EF2649E11C00D2DE08 /* CreateProtectedTexfield.swift */; };
 		45C6EC2B25A415A30014C6C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6EC2A25A415A30014C6C5 /* AppDelegate.swift */; };
 		45C6EC2D25A415A30014C6C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6EC2C25A415A30014C6C5 /* SceneDelegate.swift */; };
 		45C6EC2F25A415A30014C6C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6EC2E25A415A30014C6C5 /* ContentView.swift */; };
@@ -47,6 +50,9 @@
 		453C4B8C25A41AF100054E12 /* view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view.swift; sourceTree = "<group>"; };
 		453C4B9425A41C4400054E12 /* layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout.swift; sourceTree = "<group>"; };
 		453C4B9A25A41ED300054E12 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		455D46E92648D80700954E7D /* LearnUITextField_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUITextField_VC.swift; sourceTree = "<group>"; };
+		459CA3E72649DFCE00D2DE08 /* ProtectedTextfieldWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectedTextfieldWrapper.swift; sourceTree = "<group>"; };
+		459CA3EF2649E11C00D2DE08 /* CreateProtectedTexfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProtectedTexfield.swift; sourceTree = "<group>"; };
 		45C6EC2725A415A30014C6C5 /* UIKit Learning Path.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit Learning Path.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C6EC2A25A415A30014C6C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45C6EC2C25A415A30014C6C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,8 +123,9 @@
 		453C4B8B25A4185700054E12 /* learn */ = {
 			isa = PBXGroup;
 			children = (
-				453506C62647434900B9ADE7 /* UIImageView */,
 				453506BD264742D500B9ADE7 /* UILabel */,
+				455D46E82648D7E500954E7D /* UITextField */,
+				453506C62647434900B9ADE7 /* UIImageView */,
 				453C4B8C25A41AF100054E12 /* view.swift */,
 				453C4B9425A41C4400054E12 /* layout.swift */,
 			);
@@ -131,6 +138,16 @@
 				453C4B9A25A41ED300054E12 /* utils.swift */,
 			);
 			path = core;
+			sourceTree = "<group>";
+		};
+		455D46E82648D7E500954E7D /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				455D46E92648D80700954E7D /* LearnUITextField_VC.swift */,
+				459CA3E72649DFCE00D2DE08 /* ProtectedTextfieldWrapper.swift */,
+				459CA3EF2649E11C00D2DE08 /* CreateProtectedTexfield.swift */,
+			);
+			path = UITextField;
 			sourceTree = "<group>";
 		};
 		45C6EC1E25A415A30014C6C5 = {
@@ -328,8 +345,11 @@
 				453506BF264742F400B9ADE7 /* LearnUILabel_VC.swift in Sources */,
 				453C4B8D25A41AF100054E12 /* view.swift in Sources */,
 				453506CD2647436D00B9ADE7 /* LearnImageViewVC.swift in Sources */,
+				459CA3E82649DFCE00D2DE08 /* ProtectedTextfieldWrapper.swift in Sources */,
 				45C6EC2B25A415A30014C6C5 /* AppDelegate.swift in Sources */,
 				45C6EC2D25A415A30014C6C5 /* SceneDelegate.swift in Sources */,
+				455D46EA2648D80700954E7D /* LearnUITextField_VC.swift in Sources */,
+				459CA3F02649E11C00D2DE08 /* CreateProtectedTexfield.swift in Sources */,
 				453C4B9B25A41ED300054E12 /* utils.swift in Sources */,
 				453C4B9525A41C4400054E12 /* layout.swift in Sources */,
 				45C6EC2F25A415A30014C6C5 /* ContentView.swift in Sources */,
