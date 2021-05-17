@@ -25,7 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             //window.rootViewController = UIHostingController(rootView: contentView)
-            window.rootViewController = LearnUITextField_VC()
+            window.rootViewController = LearnUITextView_VC()
             self.window = window
             window.makeKeyAndVisible()
         }

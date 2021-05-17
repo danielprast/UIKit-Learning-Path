@@ -189,7 +189,7 @@ class LearnUILabel_VC : UIViewController {
     fileprivate func addImageInsideTheText() {
         let s2 = "Pencil"
         let content3 = NSMutableAttributedString(string: s2)
-        let pencil = UIImage(named: "pencil")!
+        let pencil = UIImage(named: "pencil_large")!
         let pencillatt = NSTextAttachment()
         pencillatt.image = pencil
         pencillatt.bounds = CGRect(x: 0, y: 0, width: pencil.size.width, height: pencil.size.height)
