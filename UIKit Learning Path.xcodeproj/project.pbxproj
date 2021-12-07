@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20B6D962275FF69F00FEEDEE /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B6D961275FF69E00FEEDEE /* AboutView.xib */; };
+		20B6D964275FF74F00FEEDEE /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B6D963275FF74F00FEEDEE /* UIViewExtension.swift */; };
+		20B6D966275FF7DD00FEEDEE /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B6D965275FF7DD00FEEDEE /* AboutView.swift */; };
+		20B6D969275FFBB400FEEDEE /* SomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B6D968275FFBB400FEEDEE /* SomePageController.swift */; };
 		453C4B8D25A41AF100054E12 /* view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C4B8C25A41AF100054E12 /* view.swift */; };
 		453C4B9525A41C4400054E12 /* layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C4B9425A41C4400054E12 /* layout.swift */; };
 		453C4B9B25A41ED300054E12 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C4B9A25A41ED300054E12 /* utils.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20B6D961275FF69E00FEEDEE /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		20B6D963275FF74F00FEEDEE /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		20B6D965275FF7DD00FEEDEE /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		20B6D968275FFBB400FEEDEE /* SomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomePageController.swift; sourceTree = "<group>"; };
 		453C4B8C25A41AF100054E12 /* view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view.swift; sourceTree = "<group>"; };
 		453C4B9425A41C4400054E12 /* layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layout.swift; sourceTree = "<group>"; };
 		453C4B9A25A41ED300054E12 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
@@ -82,9 +90,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20B6D960275FF67A00FEEDEE /* reusableView */ = {
+			isa = PBXGroup;
+			children = (
+				20B6D961275FF69E00FEEDEE /* AboutView.xib */,
+				20B6D965275FF7DD00FEEDEE /* AboutView.swift */,
+			);
+			path = reusableView;
+			sourceTree = "<group>";
+		};
+		20B6D967275FFB9900FEEDEE /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				20B6D968275FFBB400FEEDEE /* SomePageController.swift */,
+			);
+			path = scene;
+			sourceTree = "<group>";
+		};
 		453C4B8A25A4183F00054E12 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				20B6D967275FFB9900FEEDEE /* scene */,
+				20B6D960275FF67A00FEEDEE /* reusableView */,
 				453C4B9925A41EC800054E12 /* core */,
 				453C4B8B25A4185700054E12 /* learn */,
 			);
@@ -139,6 +166,7 @@
 				45C6EC3525A415A50014C6C5 /* LaunchScreen.storyboard */,
 				45C6EC3825A415A50014C6C5 /* Info.plist */,
 				45C6EC3225A415A50014C6C5 /* Preview Content */,
+				20B6D963275FF74F00FEEDEE /* UIViewExtension.swift */,
 			);
 			path = "UIKit Learning Path";
 			sourceTree = "<group>";
@@ -272,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B6D962275FF69F00FEEDEE /* AboutView.xib in Resources */,
 				45C6EC3725A415A50014C6C5 /* LaunchScreen.storyboard in Resources */,
 				45C6EC3425A415A50014C6C5 /* Preview Assets.xcassets in Resources */,
 				45C6EC3125A415A50014C6C5 /* Assets.xcassets in Resources */,
@@ -299,10 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B6D966275FF7DD00FEEDEE /* AboutView.swift in Sources */,
+				20B6D969275FFBB400FEEDEE /* SomePageController.swift in Sources */,
 				453C4B8D25A41AF100054E12 /* view.swift in Sources */,
 				45C6EC2B25A415A30014C6C5 /* AppDelegate.swift in Sources */,
 				45C6EC2D25A415A30014C6C5 /* SceneDelegate.swift in Sources */,
 				453C4B9B25A41ED300054E12 /* utils.swift in Sources */,
+				20B6D964275FF74F00FEEDEE /* UIViewExtension.swift in Sources */,
 				453C4B9525A41C4400054E12 /* layout.swift in Sources */,
 				45C6EC2F25A415A30014C6C5 /* ContentView.swift in Sources */,
 			);
