@@ -50,7 +50,7 @@ class LearnUITextField_VC: UIViewController {
         
         let iv = UIImageView()
         //let img = UIImage(named: "pencil")
-        let img = UIImage(systemName: "pencil")
+        let img = UIImage(named: "pencil")
         iv.image = img
         iv.contentMode = .left
         

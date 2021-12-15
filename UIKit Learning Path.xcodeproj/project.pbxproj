@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200C8A7D2769D97D00D65E56 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C8A7C2769D97D00D65E56 /* MyButton.swift */; };
+		200C8A7F2769DF5C00D65E56 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C8A7E2769DF5C00D65E56 /* Extensions.swift */; };
+		202B57172766E8FF0054304E /* LearnUIActivityMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202B57162766E8FF0054304E /* LearnUIActivityMonitorView.swift */; };
+		202B57192766E9290054304E /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202B57182766E9290054304E /* BaseController.swift */; };
+		202B571B276732360054304E /* LearnUIControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202B571A276732360054304E /* LearnUIControlController.swift */; };
 		453506BF264742F400B9ADE7 /* LearnUILabel_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453506BE264742F400B9ADE7 /* LearnUILabel_VC.swift */; };
 		453506C82647435B00B9ADE7 /* view.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 453506C72647435B00B9ADE7 /* view.jpg */; };
 		453506CD2647436D00B9ADE7 /* LearnImageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453506CC2647436D00B9ADE7 /* LearnImageViewVC.swift */; };
@@ -45,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		200C8A7C2769D97D00D65E56 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		200C8A7E2769DF5C00D65E56 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		202B57162766E8FF0054304E /* LearnUIActivityMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUIActivityMonitorView.swift; sourceTree = "<group>"; };
+		202B57182766E9290054304E /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		202B571A276732360054304E /* LearnUIControlController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUIControlController.swift; sourceTree = "<group>"; };
 		453506BE264742F400B9ADE7 /* LearnUILabel_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUILabel_VC.swift; sourceTree = "<group>"; };
 		453506C72647435B00B9ADE7 /* view.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = view.jpg; sourceTree = "<group>"; };
 		453506CC2647436D00B9ADE7 /* LearnImageViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnImageViewVC.swift; sourceTree = "<group>"; };
@@ -96,6 +106,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		202B57152766E8E30054304E /* UIActivityMonitorView */ = {
+			isa = PBXGroup;
+			children = (
+				202B57162766E8FF0054304E /* LearnUIActivityMonitorView.swift */,
+				202B571A276732360054304E /* LearnUIControlController.swift */,
+				200C8A7C2769D97D00D65E56 /* MyButton.swift */,
+			);
+			path = UIActivityMonitorView;
+			sourceTree = "<group>";
+		};
 		453506BD264742D500B9ADE7 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +145,7 @@
 		453C4B8B25A4185700054E12 /* learn */ = {
 			isa = PBXGroup;
 			children = (
+				202B57152766E8E30054304E /* UIActivityMonitorView */,
 				455BDB4F264A31C00068E534 /* UITextView */,
 				453506BD264742D500B9ADE7 /* UILabel */,
 				455D46E82648D7E500954E7D /* UITextField */,
@@ -139,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				453C4B9A25A41ED300054E12 /* utils.swift */,
+				202B57182766E9290054304E /* BaseController.swift */,
+				200C8A7E2769DF5C00D65E56 /* Extensions.swift */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -355,14 +378,19 @@
 			files = (
 				453506BF264742F400B9ADE7 /* LearnUILabel_VC.swift in Sources */,
 				453C4B8D25A41AF100054E12 /* view.swift in Sources */,
+				202B57192766E9290054304E /* BaseController.swift in Sources */,
 				453506CD2647436D00B9ADE7 /* LearnImageViewVC.swift in Sources */,
 				459CA3E82649DFCE00D2DE08 /* ProtectedTextfieldWrapper.swift in Sources */,
 				45C6EC2B25A415A30014C6C5 /* AppDelegate.swift in Sources */,
 				45C6EC2D25A415A30014C6C5 /* SceneDelegate.swift in Sources */,
 				455D46EA2648D80700954E7D /* LearnUITextField_VC.swift in Sources */,
 				459CA3F02649E11C00D2DE08 /* CreateProtectedTexfield.swift in Sources */,
+				202B571B276732360054304E /* LearnUIControlController.swift in Sources */,
+				202B57172766E8FF0054304E /* LearnUIActivityMonitorView.swift in Sources */,
+				200C8A7D2769D97D00D65E56 /* MyButton.swift in Sources */,
 				453C4B9B25A41ED300054E12 /* utils.swift in Sources */,
 				455BDB51264A31FC0068E534 /* LearnUITextView_VC.swift in Sources */,
+				200C8A7F2769DF5C00D65E56 /* Extensions.swift in Sources */,
 				453C4B9525A41C4400054E12 /* layout.swift in Sources */,
 				45C6EC2F25A415A30014C6C5 /* ContentView.swift in Sources */,
 			);
@@ -462,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -517,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

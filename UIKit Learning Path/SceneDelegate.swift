@@ -8,6 +8,7 @@
 import UIKit
 import SwiftUI
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -25,7 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             //window.rootViewController = UIHostingController(rootView: contentView)
-            window.rootViewController = LearnUITextView_VC()
+            window.rootViewController = LearnUIActivityMonitorView_Controller()
             self.window = window
             window.makeKeyAndVisible()
         }

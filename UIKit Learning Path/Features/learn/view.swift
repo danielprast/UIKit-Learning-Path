@@ -197,6 +197,7 @@ class ViewTopicController : UIViewController {
     }
 }
 
+@available(iOS 13.0, *)
 struct ViewTopicControllerPreview: PreviewProvider {
     static var previews: some View {
         ContainerView().edgesIgnoringSafeArea(.all)
