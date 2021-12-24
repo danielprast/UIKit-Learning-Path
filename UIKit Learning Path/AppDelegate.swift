@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             return true
         }
         
-        let rootController = LearnUIControlController()
+        let rootController = GestureLessonStoryBoardedController()
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = rootController
         window?.makeKeyAndVisible()

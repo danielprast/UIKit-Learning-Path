@@ -9,9 +9,16 @@
 /* Begin PBXBuildFile section */
 		200C8A7D2769D97D00D65E56 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C8A7C2769D97D00D65E56 /* MyButton.swift */; };
 		200C8A7F2769DF5C00D65E56 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200C8A7E2769DF5C00D65E56 /* Extensions.swift */; };
+		201EDE472775B334007DD87C /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201EDE462775B334007DD87C /* MyController.swift */; };
 		202B57172766E8FF0054304E /* LearnUIActivityMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202B57162766E8FF0054304E /* LearnUIActivityMonitorView.swift */; };
 		202B57192766E9290054304E /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202B57182766E9290054304E /* BaseController.swift */; };
 		202B571B276732360054304E /* LearnUIControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202B571A276732360054304E /* LearnUIControlController.swift */; };
+		206049D22774FEDE00D8C94C /* AwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206049D12774FEDE00D8C94C /* AwesomeView.swift */; };
+		206049D42774FEFA00D8C94C /* AwesomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 206049D32774FEFA00D8C94C /* AwesomeView.xib */; };
+		209CB49427744AA600D83309 /* GestureLessonStoryBoardedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CB49327744AA600D83309 /* GestureLessonStoryBoardedController.swift */; };
+		209CB49627744AE800D83309 /* GestureLessonStoryBoardedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 209CB49527744AE800D83309 /* GestureLessonStoryBoardedController.xib */; };
+		209CB49827744C2400D83309 /* GestureLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209CB49727744C2400D83309 /* GestureLessonView.swift */; };
+		20ED73022770D8F200CC49AF /* GestureLessonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ED73012770D8F200CC49AF /* GestureLessonController.swift */; };
 		453506BF264742F400B9ADE7 /* LearnUILabel_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453506BE264742F400B9ADE7 /* LearnUILabel_VC.swift */; };
 		453506C82647435B00B9ADE7 /* view.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 453506C72647435B00B9ADE7 /* view.jpg */; };
 		453506CD2647436D00B9ADE7 /* LearnImageViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453506CC2647436D00B9ADE7 /* LearnImageViewVC.swift */; };
@@ -52,9 +59,16 @@
 /* Begin PBXFileReference section */
 		200C8A7C2769D97D00D65E56 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		200C8A7E2769DF5C00D65E56 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		201EDE462775B334007DD87C /* MyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
 		202B57162766E8FF0054304E /* LearnUIActivityMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUIActivityMonitorView.swift; sourceTree = "<group>"; };
 		202B57182766E9290054304E /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		202B571A276732360054304E /* LearnUIControlController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUIControlController.swift; sourceTree = "<group>"; };
+		206049D12774FEDE00D8C94C /* AwesomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeView.swift; sourceTree = "<group>"; };
+		206049D32774FEFA00D8C94C /* AwesomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AwesomeView.xib; sourceTree = "<group>"; };
+		209CB49327744AA600D83309 /* GestureLessonStoryBoardedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureLessonStoryBoardedController.swift; sourceTree = "<group>"; };
+		209CB49527744AE800D83309 /* GestureLessonStoryBoardedController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GestureLessonStoryBoardedController.xib; sourceTree = "<group>"; };
+		209CB49727744C2400D83309 /* GestureLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureLessonView.swift; sourceTree = "<group>"; };
+		20ED73012770D8F200CC49AF /* GestureLessonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureLessonController.swift; sourceTree = "<group>"; };
 		453506BE264742F400B9ADE7 /* LearnUILabel_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUILabel_VC.swift; sourceTree = "<group>"; };
 		453506C72647435B00B9ADE7 /* view.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = view.jpg; sourceTree = "<group>"; };
 		453506CC2647436D00B9ADE7 /* LearnImageViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnImageViewVC.swift; sourceTree = "<group>"; };
@@ -116,6 +130,28 @@
 			path = UIActivityMonitorView;
 			sourceTree = "<group>";
 		};
+		20C6AB71277627420059486C /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				206049D12774FEDE00D8C94C /* AwesomeView.swift */,
+				206049D32774FEFA00D8C94C /* AwesomeView.xib */,
+				201EDE462775B334007DD87C /* MyController.swift */,
+				453C4B8C25A41AF100054E12 /* view.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		20ED73002770D8D100CC49AF /* UIGesture */ = {
+			isa = PBXGroup;
+			children = (
+				20ED73012770D8F200CC49AF /* GestureLessonController.swift */,
+				209CB49327744AA600D83309 /* GestureLessonStoryBoardedController.swift */,
+				209CB49527744AE800D83309 /* GestureLessonStoryBoardedController.xib */,
+				209CB49727744C2400D83309 /* GestureLessonView.swift */,
+			);
+			path = UIGesture;
+			sourceTree = "<group>";
+		};
 		453506BD264742D500B9ADE7 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,12 +181,13 @@
 		453C4B8B25A4185700054E12 /* learn */ = {
 			isa = PBXGroup;
 			children = (
+				20C6AB71277627420059486C /* UIView */,
+				20ED73002770D8D100CC49AF /* UIGesture */,
 				202B57152766E8E30054304E /* UIActivityMonitorView */,
 				455BDB4F264A31C00068E534 /* UITextView */,
 				453506BD264742D500B9ADE7 /* UILabel */,
 				455D46E82648D7E500954E7D /* UITextField */,
 				453506C62647434900B9ADE7 /* UIImageView */,
-				453C4B8C25A41AF100054E12 /* view.swift */,
 				453C4B9425A41C4400054E12 /* layout.swift */,
 			);
 			path = learn;
@@ -350,6 +387,8 @@
 			files = (
 				45C6EC3725A415A50014C6C5 /* LaunchScreen.storyboard in Resources */,
 				45C6EC3425A415A50014C6C5 /* Preview Assets.xcassets in Resources */,
+				206049D42774FEFA00D8C94C /* AwesomeView.xib in Resources */,
+				209CB49627744AE800D83309 /* GestureLessonStoryBoardedController.xib in Resources */,
 				453506C82647435B00B9ADE7 /* view.jpg in Resources */,
 				45C6EC3125A415A50014C6C5 /* Assets.xcassets in Resources */,
 			);
@@ -376,7 +415,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				206049D22774FEDE00D8C94C /* AwesomeView.swift in Sources */,
+				209CB49827744C2400D83309 /* GestureLessonView.swift in Sources */,
 				453506BF264742F400B9ADE7 /* LearnUILabel_VC.swift in Sources */,
+				20ED73022770D8F200CC49AF /* GestureLessonController.swift in Sources */,
 				453C4B8D25A41AF100054E12 /* view.swift in Sources */,
 				202B57192766E9290054304E /* BaseController.swift in Sources */,
 				453506CD2647436D00B9ADE7 /* LearnImageViewVC.swift in Sources */,
@@ -384,9 +426,11 @@
 				45C6EC2B25A415A30014C6C5 /* AppDelegate.swift in Sources */,
 				45C6EC2D25A415A30014C6C5 /* SceneDelegate.swift in Sources */,
 				455D46EA2648D80700954E7D /* LearnUITextField_VC.swift in Sources */,
+				201EDE472775B334007DD87C /* MyController.swift in Sources */,
 				459CA3F02649E11C00D2DE08 /* CreateProtectedTexfield.swift in Sources */,
 				202B571B276732360054304E /* LearnUIControlController.swift in Sources */,
 				202B57172766E8FF0054304E /* LearnUIActivityMonitorView.swift in Sources */,
+				209CB49427744AA600D83309 /* GestureLessonStoryBoardedController.swift in Sources */,
 				200C8A7D2769D97D00D65E56 /* MyButton.swift in Sources */,
 				453C4B9B25A41ED300054E12 /* utils.swift in Sources */,
 				455BDB51264A31FC0068E534 /* LearnUITextView_VC.swift in Sources */,
@@ -562,7 +606,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UIKit Learning Path/Preview Content\"";
-				DEVELOPMENT_TEAM = 68YDMY6P53;
+				DEVELOPMENT_TEAM = M9VP242345;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "UIKit Learning Path/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -583,7 +627,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"UIKit Learning Path/Preview Content\"";
-				DEVELOPMENT_TEAM = 68YDMY6P53;
+				DEVELOPMENT_TEAM = M9VP242345;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "UIKit Learning Path/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
