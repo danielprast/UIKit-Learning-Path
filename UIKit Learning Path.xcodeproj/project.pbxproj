@@ -37,6 +37,7 @@
 		45C6EC3725A415A50014C6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C6EC3525A415A50014C6C5 /* LaunchScreen.storyboard */; };
 		45C6EC4225A415A50014C6C5 /* UIKit_Learning_PathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6EC4125A415A50014C6C5 /* UIKit_Learning_PathTests.swift */; };
 		45C6EC4D25A415A50014C6C5 /* UIKit_Learning_PathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6EC4C25A415A50014C6C5 /* UIKit_Learning_PathUITests.swift */; };
+		7FF7ECEC2783838C00978022 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF7ECEB2783838C00978022 /* AppConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		45C6EC4825A415A50014C6C5 /* UIKit Learning PathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKit Learning PathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C6EC4C25A415A50014C6C5 /* UIKit_Learning_PathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_Learning_PathUITests.swift; sourceTree = "<group>"; };
 		45C6EC4E25A415A50014C6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF7ECEB2783838C00978022 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				453C4B8A25A4183F00054E12 /* Features */,
+				7FF7ECEB2783838C00978022 /* AppConfig.swift */,
 				45C6EC2A25A415A30014C6C5 /* AppDelegate.swift */,
 				45C6EC2C25A415A30014C6C5 /* SceneDelegate.swift */,
 				45C6EC2E25A415A30014C6C5 /* ContentView.swift */,
@@ -424,6 +427,7 @@
 				453506CD2647436D00B9ADE7 /* LearnImageViewVC.swift in Sources */,
 				459CA3E82649DFCE00D2DE08 /* ProtectedTextfieldWrapper.swift in Sources */,
 				45C6EC2B25A415A30014C6C5 /* AppDelegate.swift in Sources */,
+				7FF7ECEC2783838C00978022 /* AppConfig.swift in Sources */,
 				45C6EC2D25A415A30014C6C5 /* SceneDelegate.swift in Sources */,
 				455D46EA2648D80700954E7D /* LearnUITextField_VC.swift in Sources */,
 				201EDE472775B334007DD87C /* MyController.swift in Sources */,
