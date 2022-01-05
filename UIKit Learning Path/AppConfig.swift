@@ -13,7 +13,8 @@ class AppConfig {
     
     var rootController: UIViewController {
         get {
-            return GestureLessonStoryBoardedController()
+            //return GestureLessonStoryBoardedController()
+            return PertamaViewController()
         }
     }
 }

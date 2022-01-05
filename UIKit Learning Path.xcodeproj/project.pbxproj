@@ -37,6 +37,11 @@
 		45C6EC3725A415A50014C6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C6EC3525A415A50014C6C5 /* LaunchScreen.storyboard */; };
 		45C6EC4225A415A50014C6C5 /* UIKit_Learning_PathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6EC4125A415A50014C6C5 /* UIKit_Learning_PathTests.swift */; };
 		45C6EC4D25A415A50014C6C5 /* UIKit_Learning_PathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6EC4C25A415A50014C6C5 /* UIKit_Learning_PathUITests.swift */; };
+		7F86923A27838AD000A4097D /* PertamaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F86923927838AD000A4097D /* PertamaViewController.swift */; };
+		7F86924627838FA200A4097D /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F86924427838FA200A4097D /* OtherViewController.swift */; };
+		7F86924727838FA200A4097D /* OtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F86924527838FA200A4097D /* OtherViewController.xib */; };
+		7F86924E2783A49D00A4097D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F86924C2783A49D00A4097D /* SecondViewController.swift */; };
+		7F86924F2783A49D00A4097D /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F86924D2783A49D00A4097D /* SecondViewController.xib */; };
 		7FF7ECEC2783838C00978022 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF7ECEB2783838C00978022 /* AppConfig.swift */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +99,11 @@
 		45C6EC4825A415A50014C6C5 /* UIKit Learning PathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKit Learning PathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C6EC4C25A415A50014C6C5 /* UIKit_Learning_PathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_Learning_PathUITests.swift; sourceTree = "<group>"; };
 		45C6EC4E25A415A50014C6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F86923927838AD000A4097D /* PertamaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PertamaViewController.swift; sourceTree = "<group>"; };
+		7F86924427838FA200A4097D /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		7F86924527838FA200A4097D /* OtherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherViewController.xib; sourceTree = "<group>"; };
+		7F86924C2783A49D00A4097D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7F86924D2783A49D00A4097D /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		7FF7ECEB2783838C00978022 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,6 +193,7 @@
 		453C4B8B25A4185700054E12 /* learn */ = {
 			isa = PBXGroup;
 			children = (
+				7F8692312783892E00A4097D /* ViewControllers */,
 				20C6AB71277627420059486C /* UIView */,
 				20ED73002770D8D100CC49AF /* UIGesture */,
 				202B57152766E8E30054304E /* UIActivityMonitorView */,
@@ -283,6 +294,26 @@
 				45C6EC4E25A415A50014C6C5 /* Info.plist */,
 			);
 			path = "UIKit Learning PathUITests";
+			sourceTree = "<group>";
+		};
+		7F8692312783892E00A4097D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F86924B2783936B00A4097D /* TabBarController */,
+				7F86923927838AD000A4097D /* PertamaViewController.swift */,
+				7F86924427838FA200A4097D /* OtherViewController.swift */,
+				7F86924527838FA200A4097D /* OtherViewController.xib */,
+				7F86924C2783A49D00A4097D /* SecondViewController.swift */,
+				7F86924D2783A49D00A4097D /* SecondViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7F86924B2783936B00A4097D /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,6 +422,8 @@
 				45C6EC3725A415A50014C6C5 /* LaunchScreen.storyboard in Resources */,
 				45C6EC3425A415A50014C6C5 /* Preview Assets.xcassets in Resources */,
 				206049D42774FEFA00D8C94C /* AwesomeView.xib in Resources */,
+				7F86924727838FA200A4097D /* OtherViewController.xib in Resources */,
+				7F86924F2783A49D00A4097D /* SecondViewController.xib in Resources */,
 				209CB49627744AE800D83309 /* GestureLessonStoryBoardedController.xib in Resources */,
 				453506C82647435B00B9ADE7 /* view.jpg in Resources */,
 				45C6EC3125A415A50014C6C5 /* Assets.xcassets in Resources */,
@@ -424,6 +457,7 @@
 				20ED73022770D8F200CC49AF /* GestureLessonController.swift in Sources */,
 				453C4B8D25A41AF100054E12 /* view.swift in Sources */,
 				202B57192766E9290054304E /* BaseController.swift in Sources */,
+				7F86924E2783A49D00A4097D /* SecondViewController.swift in Sources */,
 				453506CD2647436D00B9ADE7 /* LearnImageViewVC.swift in Sources */,
 				459CA3E82649DFCE00D2DE08 /* ProtectedTextfieldWrapper.swift in Sources */,
 				45C6EC2B25A415A30014C6C5 /* AppDelegate.swift in Sources */,
@@ -431,6 +465,8 @@
 				45C6EC2D25A415A30014C6C5 /* SceneDelegate.swift in Sources */,
 				455D46EA2648D80700954E7D /* LearnUITextField_VC.swift in Sources */,
 				201EDE472775B334007DD87C /* MyController.swift in Sources */,
+				7F86923A27838AD000A4097D /* PertamaViewController.swift in Sources */,
+				7F86924627838FA200A4097D /* OtherViewController.swift in Sources */,
 				459CA3F02649E11C00D2DE08 /* CreateProtectedTexfield.swift in Sources */,
 				202B571B276732360054304E /* LearnUIControlController.swift in Sources */,
 				202B57172766E8FF0054304E /* LearnUIActivityMonitorView.swift in Sources */,
